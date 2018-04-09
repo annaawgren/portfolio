@@ -13,9 +13,10 @@ class Home extends React.Component {
         <div className="background">
 
           <div className="header-container">
-            <div>
-              <h1 className="portfolio-headline">hello</h1>
-            </div>
+              <h1 className="portfolio-headline">Anna Ågren</h1>
+              <h1 className="portfolio-headline">art director</h1>
+              <h1 className="portfolio-headline">digital designer</h1>
+              <h1 className="portfolio-headline">frontend developer</h1>
           </div>
 
           <div className="hero-container">
@@ -28,10 +29,10 @@ class Home extends React.Component {
           </div>
 
           <div className="social-links-container">
-            <div>mail</div>
-            <div>ln</div>
-            <div>p</div>
-            <div>mail</div>
+            <div className="links-txt">mail</div>
+            <div className="links-txt">phone</div>
+            <div className="links-txt">p</div>
+            <div className="links-txt">ln</div>
 
           </div>
 

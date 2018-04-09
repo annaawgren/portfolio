@@ -1,3 +1,13 @@
+@@font-face {
+  font-family: "URWGeometric-Bold.woff";
+  src: url("/URWGeometric-Bold.woff") format("woff");
+}
+h1 {
+  margin: 0px;
+  padding: 0px;
+  line-height: normal;
+  font-family: "URWGeometric-Bold.woff";
+}
 .background {
   padding: 0px 20px 50px 150px;
   background: #9CBFA7;
@@ -7,15 +17,16 @@
 }
 .header-container {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 0px;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
+  align-content: center;
 }
 .portfolio-headline {
   font-size: 200px;
   color: black;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "URWGeometric-Bold.woff";
   font-weight: 1000;
   margin-bottom: 100px;
 }
@@ -51,4 +62,11 @@
 .social-links-container {
   display: flex;
   flex-flow: column;
+}
+
+.links-txt {
+  font-size: 20px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: 900;
+
 }
