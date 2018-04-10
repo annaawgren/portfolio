@@ -88,9 +88,9 @@ p {
   margin-bottom: 30px;
 }
 
-.title-headline {
+.about-text {
   font-size: 20px;
-  line-height: 25px;
+  line-height: 28px;
   font-family: "URWGeometric-Bold.woff";
   text-align: left;
   width: 800px;
@@ -106,16 +106,13 @@ p {
   position: absolute;
 }
 
-.links-txt {
-  width: 20px;
-  height: 20px;
+.social-links img {
+  width: 25px;
+  height: 25px;
   background-color: black;
-  font-size: 20px;
-  font-family: "URWGeometric-Bold.woff";
   margin: 2px 0px;
   position: relative;
 }
-
 
 .nav-links-container {
   display: flex;

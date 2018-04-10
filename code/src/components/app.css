@@ -13,18 +13,35 @@
   position: relative;
 }
 
-.navlink-txt {
-  font-family: "URWGeometric-Bold.woff";
-  font-size: 50px;
-}
-
 .contact {
   text-decoration: underline;
 }
 
-.links-txt {
-  font-size: 20px;
+a {
+  color: black;
+}
+
+.navlink-txt {
   font-family: "URWGeometric-Bold.woff";
+  font-size: 50px;
+  color: black;
+}
+
+.contact-info {
+  font-family: "URWGeometric-Bold.woff";
+  font-size: 80px;
+}
+
+.contact-info.visible {
+  width: 100%;
+  background: red;
+  height: 100px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.contact-info.hidden {
+  display: none;
 }
 
 .nav-links-container {
@@ -35,5 +52,5 @@
   justify-content: space-around;
   width: 100%;
   padding: 0 200px;
-
+  margin-bottom: 100px;
 }
