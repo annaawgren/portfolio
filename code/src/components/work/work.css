@@ -1,0 +1,14 @@
+.work-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.work-box {
+  width: 500px;
+  height: 400px;
+  background: red;
+  margin: 20px;
+}

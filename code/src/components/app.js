@@ -9,26 +9,11 @@ import "./app.css"
 
 class App extends React.Component {
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      contactVisible: false
-    }
-  }
-
-  handleContactClick = () => {
-    this.setState({ contactVisible: !this.state.contactVisible })
-  }
 
   render() {
     return (
       <BrowserRouter>
         <div className="home-container">
-          <div className="header-container">
-            <div className="navlink-txt">Anna Ågren</div>
-            <div onClick={this.handleContactClick} className="navlink-txt contact">Contact</div>
-            <div className={`contact-info ${this.state.contactVisible ? "visible" : "hidden"}`}>+46 70 713 54 91 <br /> info@annaagren.se </div>
-          </div>
 
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
