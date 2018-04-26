@@ -1,0 +1,14 @@
+.aboutpage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.background-box {
+  display: block;
+  width: 500px;
+}
+
+.background-box--text {
+  font-size: 200px;
+}

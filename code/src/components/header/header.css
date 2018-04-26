@@ -1,0 +1,58 @@
+.header-container {
+  width: 100%;
+  margin: 0;
+  padding: 20px 100px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+a {
+  color: black;
+}
+
+.navlink-txt {
+  font-size: 50px;
+  color: black;
+}
+
+.contact-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.contact {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact:hover {
+  background: #16F4D0;
+}
+
+.contact-info {
+  font-size: 80px;
+}
+
+.contact-info.visible {
+  background: rgb(247, 14, 76);
+  color: white;
+  width: 500px;
+  height: 200px;
+  display: block;
+  margin: 120px 0px;
+  font-size: 30px;
+  transition: all 0.1s ease-in-out;
+  padding: 40px 20px;
+  position: absolute;
+  z-index: 11;
+  text-align: right;
+}
+
+.contact-info.hidden {
+  display: none;
+}
