@@ -1,14 +1,85 @@
 .aboutpage-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  flex-flow: column;
   width: 100%;
-}
-.background-box {
-  display: block;
-  width: 500px;
+  margin: 0px 0px 500px;
+  height: auto;
+  padding-top: 60px;
 }
 
-.background-box--text {
-  font-size: 200px;
+.bg-box {
+  display: flex;
+  flex-flow: column;
+  width: 800px;
+  margin-bottom: 30px;
+}
+
+.bg-box--headline {
+  font-size: 100px;
+  font-family: "URWGeometric-Bold.woff";
+}
+
+.bg-box--text {
+  font-size: 30px;
+  font-family: "URWGeometric-Bold.woff";
+}
+
+.bg-box-onclick.hidden {
+  display: none;
+}
+
+.bg-box--headline:hover {
+  /* animation: shake 0.5s;
+  animation-iteration-count: 1; */
+  cursor: pointer;
+  text-decoration: underline;
+  color: red;
+}
+
+.bg-box--skills-edu {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.bg-box--skills--contentbox {
+  width: 22%;
+  margin: 10px;
+  height: 300px;
+  font-family: "URWGeometric-Bold.woff";
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.bg-box--edu--contentbox {
+  width: 100%;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  height: auto;
+  font-family: "URWGeometric-Bold.woff";
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.skills--headline {
+  font-size: 30px;
+  font-family: "URWGeometric-Bold.woff";
+  text-decoration: underline;
+}
+
+.edu--headline {
+  font-size: 20px;
+  color: red;
+  font-family: "URWGeometric-Bold.woff";
+}
+
+.print-link {
+  text-decoration: underline;
+}
+
+.callme-link:hover, .print-link:hover {
+  color: red;
 }

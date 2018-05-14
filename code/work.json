@@ -1,0 +1,43 @@
+{
+  "work": [{
+    "id": 1,
+    "name": "xxxx",
+    "type": "code",
+    "client": "",
+    "image": "link to homepage",
+    "description": "here it says what practiced, what learned and what "
+  },
+  {
+    "id": 2,
+    "name": "xxxx",
+    "type": "code",
+    "client": "",
+    "image": "link to homepage",
+    "description": "here it says what practiced, what learned and what "
+  },
+  {
+    "id": 3,
+    "name": "xxxx",
+    "type": "code",
+    "client": "",
+    "image": "link to homepage",
+    "description": "here it says what practiced, what learned and what "
+  },
+  {
+  "id": 4,
+  "name": "xxxx",
+  "type": "code",
+  "client": "",
+  "image": "link to homepage",
+  "description": "here it says what practiced, what learned and what "
+  },
+  {
+  "id": 4,
+  "name": "xxxx",
+  "type": "code",
+  "client": "",
+  "image": "link to homepage",
+  "description": "here it says what practiced, what learned and what "
+  },
+  ]
+}

@@ -10,14 +10,19 @@ import "./app.css"
 class App extends React.Component {
 
 
+  //window.scrollTo!!!
+
   render() {
     return (
       <BrowserRouter>
         <div className="home-container">
 
+
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
+
+
 
           <div className="nav-links-container">
             <div className="navlink-txt"><Link to="/work">Work</Link></div>
