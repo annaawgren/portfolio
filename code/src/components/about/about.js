@@ -42,11 +42,29 @@ class About extends React.Component {
             <div className="navlink-txt-anna"><Link to="/">Anna Ågren</Link></div>
 
             <div className="contact-container">
-              <div className="navlink-txt">About</div>
+              <div onClick={this.handleContactClick} className="navlink-txt contact">Contact</div>
+              <div className={`contact-info ${this.state.contactVisible ? "visible" : "hidden"}`}>
+                +46 70 713 54 91 <br /> <a href="mailto:info@annaagren.se">hello@annaagren.io</a> </div>
             </div>
         </div>
 
         <div className="aboutpage-container">
+
+          <div className="bg-box">
+            <div className="bg-box--headline" onClick={this.handleVisionClick}>vision + work</div>
+            <div className={`bg-box-onclick ${this.state.visionVisible ? "visible" : "hidden"}`}>
+              <p className="bg-box--text"> I love to put a lot of <span className="red">&lt;3</span>  into things I take on.
+                I believe it makes everything better — and more fun. Yay! Three things that I love a little extra
+                (beyond my four year old son, cross country skiing, cooking vegan food, learning new things,
+                spending time in the mountains and listening to a lot of music) is
+                <br /> 1. Design.
+                <br /> 2. New technology.
+                <br /> 3. Code.
+                <br /> That's why I've just added digital to my 16 years of print background by studying at both <a className="link-underline" href="https://www.hyperisland.com/programs-and-courses/design-lead" target="blank">Hyper Island</a> and <a className="link-underline" href="http://www.technigo.io/program" target="blank">Technigo</a> to become a digital uhm … wizard?
+                Well, at least someone who's good at both design, tech & code.
+               </p>
+            </div>
+          </div>
 
           <div className="bg-box">
             <div className="bg-box--headline" onClick={this.handleBackgroundClick}>background</div>
@@ -58,19 +76,6 @@ class About extends React.Component {
               I have also designed a lot of of books for a number of different publishing houses.
               Check out print portfolio <a className="print-link" href="http://www.annaagren.se" target="blank"> here </a>
               </p>
-            </div>
-          </div>
-
-          <div className="bg-box">
-            <div className="bg-box--headline" onClick={this.handleVisionClick}>vision + work</div>
-            <div className={`bg-box-onclick ${this.state.visionVisible ? "visible" : "hidden"}`}>
-              <p className="bg-box--text"> I love to put a lot of <span className="red">&lt;3</span>  into things I take on.
-                I believe it makes everything better — and more fun. Yay! Three things that I love a little extra
-                (beyond my four year old son, cross country skiing, cooking vegan food, learning new things,
-                spending time in the mountains and listening to a lot of music) is 1. Design 2. Tech 3. Code.
-                That's why I'm now studying at both Hyper Island and Technigo to become a digital … wizard?
-                Well, at least someone who's great at both code & design!
-               </p>
             </div>
           </div>
 
@@ -91,12 +96,12 @@ class About extends React.Component {
                 </div>
                 <div className="bg-box--skills--contentbox">
                   <span className="skills--headline">design</span>
-                  <br /><br /> Art direction <br /> Design lead <br /> Digital design <br /> Book design <br /> Magazine design
+                  <br /><br /> Art direction <br /> Experience design <br /> Digital design <br /> Book design <br /> Magazine design
                   <br /> UX design <br /> Prototyping
                 </div>
                 <div className="bg-box--skills--contentbox">
                   <span className="skills--headline">more</span>
-                  <br /><br /> Hyper Island Toolbox <br /> Branding <br /> Strategy <br /> Process design <br /> Concept development <br /> Agile methodology
+                  <br /><br /> Design Lead <br /> Hyper Island Toolbox <br /> Branding <br /> Strategy <br /> Process design <br /> Concept development <br /> Agile methodology
                 </div>
 
               </div>
@@ -111,29 +116,28 @@ class About extends React.Component {
                 <div className="bg-box--edu--contentbox">
                   <span className="edu--headline">Design Lead @ Hyper Island</span>
                   <br />Sthlm Aug. 2017 – Jun. 2018 <br /> Full-time program.
-                  Full time program. Exploring user centered design, UX, interactive art direction, creative tech, business strategy, concept development, group dynamics and practicing self-leadership.
-                </div>
+                  Full time program. Exploring user centered design, UX, interactive art direction, creative tech, business strategy, concept development, group dynamics and practicing self-leadership.</div>
 
                 <div className="bg-box--edu--contentbox">
                   <span className="edu--headline">Frontend developer @ Technigo</span>
                   <br />Sthlm Mar. - May.  2018 <br />
                   Full-time 12 w boot camp / intensive program. Covering everything from the basics of programming to how to structure and build bigger web projects. Focus on JavaScript. Total 480 coding hours, 50+ individual tasks (in HTML5, CSS, Javascript, JSX, React, Node.js) and 6 sprints with demos together with companies like Google, Kivra, Tictail and Detectify.
-
                 </div>
 
                 <div className="bg-box--edu--contentbox">
                   <span className="edu--headline">HTML5 & CSS3 @ Tjejer kodar</span>
-                  <br />Berlin Jun. 2017 <br /> 3 day intensive course. Build a portfolio in HTML&CSS
+                  <br />Berlin Jun. 2017 <br /> 3 day intensive course. Build a portfolio in HTML&CSS.
                 </div>
 
                 <div className="bg-box--edu--contentbox">
                   <span className="edu--headline">Social Video @ Berghs SOC</span>
-                  <br />Sthlm Mar. 2017 <br /> Visual storytelling in social media, creative filming. Foundations in lightning and sound. Cut, edit and export for different platforms. Strategy for social video
+                  <br />Sthlm Mar. 2017 <br /> 3 day intensive course. Visual storytelling in social media, creative filming. Foundations in lightning and sound. Cut, edit and export for different platforms. Strategy for social video.
                 </div>
 
                 <div className="bg-box--edu--contentbox">
                   <span className="edu--headline">UX/UI Design @ Berghs SOC</span>
-                  <br />Sthlm Feb. - Mar. 2017 <br /> 8 v online course.Covering the foundations UX/UI design. Human centered design, design patterns and mobile first. Iconography, wireframes and iterations. Design an app + responsive webpage.
+                  <br />Sthlm Feb. - Mar. 2017 <br /> Covering the foundations
+in UX/UI design. Human centered design, design patterns and mobile first. Iconography, wireframes and iterations. Design an app + responsive webpage.
                 </div>
 
                 <div className="bg-box--edu--contentbox">

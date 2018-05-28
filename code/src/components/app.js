@@ -21,6 +21,7 @@ class App extends React.Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
+          <Route path="/lab" component={Lab} />
 
           <div className="nav-links-container">
             <div className="navlink-txt"><Link to="/work">Work</Link></div>

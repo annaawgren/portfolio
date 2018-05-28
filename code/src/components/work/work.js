@@ -9,6 +9,7 @@ import sr from "../../images/sr-laptop.jpg"
 import fullstack from "../../images/fullstack.gif"
 import background from "../../images/background.jpg"
 import vegogo from "../../images/vegogo.jpg"
+import herstory from "../../images/herstoryy.mp4"
 
 
 class Work extends React.Component {
@@ -47,13 +48,14 @@ class Work extends React.Component {
             </div>
         </div>
 
+
         <div className="work-headline-box">
             <h1 className="work-headline">Work</h1>
 
             <div className="work-headline-explainer">
               <div onClick={this.handleExplainerClick} className="work-headline-star">*</div>
               <div className={`explainer ${this.state.explainerVisible ? "visible" : "hidden"}`}>
-                <p>A collection of things that I've done during my time at <a className="link-underline" href="https://www.hyperisland.com/programs-and-courses/design-lead" target="blank">Hyper Island </a>
+                <p>Things that I've done during my time at <a className="link-underline" href="https://www.hyperisland.com/programs-and-courses/design-lead" target="blank">Hyper Island </a>
                 and <a className="link-underline" href="http://www.technigo.io/program" target="blank">Technigo</a>.</p>
               </div>
             </div>
@@ -70,7 +72,7 @@ class Work extends React.Component {
             <div className="work-box--info">
               <h3 className="work-box--info--headline">Interactive video projection</h3>
               <p>Personal project at Hyper Island</p>
-              <p>Tools & Tech: Machine learning with Wekinator and projection done with
+              <p>Tools & Tech: Machine learning using Wekinator and projection done with
               Resolume Arena.</p>
               <p className="p-link-row">See more <a className="p-link" href="https://readymag.com/u11250101/975783/" target="blank">here</a> </p>
             </div>
@@ -82,9 +84,9 @@ class Work extends React.Component {
             </div>
             <div className="work-box--info">
               <h3 className="work-box--info--headline">vegogo.se</h3>
-              <p>Own project</p>
-              <p>A curated, inspirational guide to the best vegan places to eat in Stockholm. Frontend + backend development, concept and digital design.</p>
-              <p>Tools & Tech: React, API, JSX, CSS.</p>
+              <p>Own project.</p>
+              <p>A curated, inspirational guide to the best vegan places to eat in Stockholm. Frontend + backend development, concept and design.</p>
+              <p>Tools & Tech: React, NODE.js, MongoDB, JSX, SASS.</p>
               <p className="p-link-row">See more <a className="p-link" href="http://www.vegogo.se" target="blank">here</a> </p>
             </div>
           </div>
@@ -105,13 +107,15 @@ class Work extends React.Component {
 
           <div className="work-box-container">
             <div className="work-box">
-              <div> <img className="work-box img" src={sr} /></div>
+              <video className="video" autoPlay loop infinite="true" >
+                <source src={require("../../images/herstoryy.mp4")} type="video/mp4" alt="video" />
+              </video>
             </div>
             <div className="work-box--info">
-              <h3 className="work-box--info--headline">Radio Player</h3>
-              <p>Project done at Technigo.</p>
-              <p>Case: Build a radio player using Sveriges Radio API. Frontend development and digital design.</p>
-              <p>Tools & Tech: React, API, JSX, CSS.</p>
+              <h3 className="work-box--info--headline">Herstory escape room</h3>
+              <p>An experience design herstory about Ada Lovelace.</p>
+              <p>Case: Build an escape room based on the life of Ada Lovelace. Concept development, experience design, </p>
+              <p>Tools & Tech: Arduino, After effects, hand assembly</p>
               <p className="p-link-row">See more <a className="p-link" href="https://annaawgren.github.io/radio-player/" target="blank">here</a> </p>
             </div>
           </div>
@@ -137,6 +141,19 @@ class Work extends React.Component {
               <h3 className="work-box--info--headline">Tictail webshop</h3>
               <p>Client: Tictail.</p>
               <p>Case: Build a webshop using Tictail API. Frontend development and digital design.</p>
+              <p>Tools & Tech: React, API, JSX, CSS.</p>
+              <p className="p-link-row">See more <a className="p-link" href="https://annaawgren.github.io/radio-player/" target="blank">here</a> </p>
+            </div>
+          </div>
+
+          <div className="work-box-container">
+            <div className="work-box">
+              <div> <img className="work-box img" src={sr} /></div>
+            </div>
+            <div className="work-box--info">
+              <h3 className="work-box--info--headline">Radio Player</h3>
+              <p>Project done at Technigo.</p>
+              <p>Case: Build a radio player using Sveriges Radio API. Frontend development and digital design.</p>
               <p>Tools & Tech: React, API, JSX, CSS.</p>
               <p className="p-link-row">See more <a className="p-link" href="https://annaawgren.github.io/radio-player/" target="blank">here</a> </p>
             </div>

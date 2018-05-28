@@ -123,15 +123,15 @@ h1 {
 
 .work-box--info {
   position: absolute;
-  width: 400px;
+  width: 350px;
   bottom: 80px;
   left: -20px;
   background: black;
   color: white;
   font-family: "URWGeometric-Bold.woff";
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.3em;
-  padding: 30px;
+  padding: 20px;
   z-index: 10;
 }
 
@@ -154,5 +154,5 @@ h1 {
   height: auto;
   margin: 0px 20px 20px 0px;
   z-index: -10;
-
+  display: inline-block;
 }

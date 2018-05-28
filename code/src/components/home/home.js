@@ -34,16 +34,15 @@ class Home extends React.Component {
     return (
       <div className="background">
 
+        <div className="header-container">
+            <div className="navlink-txt-anna"><Link to="/">Anna Ågren</Link></div>
 
-                  <div className="header-container">
-                      <div className="navlink-txt-anna"><Link to="/">Anna Ågren</Link></div>
-
-                      <div className="contact-container">
-                        <div onClick={this.handleContactClick} className="navlink-txt contact">Contact</div>
-                        <div className={`contact-info ${this.state.contactVisible ? "visible" : "hidden"}`}>
-                          +46 70 713 54 91 <br /> <a href="mailto:info@annaagren.se">hello@annaagren.io</a> </div>
-                      </div>
-                  </div>
+            <div className="contact-container">
+              <div onClick={this.handleContactClick} className="navlink-txt contact">Contact</div>
+              <div className={`contact-info ${this.state.contactVisible ? "visible" : "hidden"}`}>
+                +46 70 713 54 91 <br /> <a href="mailto:info@annaagren.se">hello@annaagren.io</a> </div>
+            </div>
+        </div>
 
         <div className="title-container">
           <div> <p className="hero-txt"> art director</p></div>
