@@ -69,10 +69,7 @@ class About extends React.Component {
                 (beyond my four year old son, cross country skiing, cooking vegan food, learning new things,
                 spending time in the mountains and listening to a lot of music) is 1. Design 2. Tech 3. Code.
                 That's why I'm now studying at both Hyper Island and Technigo to become a digital … wizard?
-                Well, at least someone who's great at both code & design! To get there I would love to junior
-                as a web developer at a nice place that makes nice things where I can learn as much about coding as possible.
-                Need someone you want to teach? <a className="callme-link" href="tel:+46707135491" target="blank">Give me a call!</a>
-
+                Well, at least someone who's great at both code & design!
                </p>
             </div>
           </div>

@@ -9,7 +9,8 @@ p {
 }
 
 .about-text p {
-  margin-top: 1em;
+  font-size: 1.7em;
+  line-height: 1.5em;
 }
 
 .background {

@@ -1,14 +1,78 @@
-.about-mywork-txt {
+h1 {
+  margin: 0px;
+  paddin: 0px;
+}
 
-  margin: 0;
+.work-headline-box {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 200px 0 0 0;
+  padding: 0 100px 0 100px;
+}
+
+.work-headline-explainer {
+  text-align: right;
+  width: 300px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  margin: 0px;
+}
+
+.link-underline {
+  text-decoration: underline;
+}
+
+.explainer {
+  height: 100px;
+  width: 150px;
+  text-align: right;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  position: absolute;
+  padding-right: 20px;
+}
+
+.explainer.hidden {
+  display: none;
+}
+
+.work-headline, .work-headline-star {
   text-align: left;
   font-family: "URWGeometric-Bold.woff";
-  font-size: 100px;
-  padding-left: 100px;
+  font-size: 25em;
+  line-height: 0.2em;
+  padding: 0;
   display: inline-block;
 }
 
-.about-mywork-txt:hover {
+.work-headline-star:hover {
+  cursor:grab;
+  animation: shake 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.work-headline:hover {
   animation: textanimation 1.2s ease infinite;
   cursor: crosshair;
 }
@@ -26,7 +90,7 @@
 }
 
 .work-bg {
-  background-color: white;
+  background: #FCEADE;
 }
 
 .work-container {
@@ -35,7 +99,7 @@
   justify-content: flex-start;
   width: 100%;
   padding: 0 100px;
-  margin: 60px 0px;
+  margin: 100px 0px;
 }
 
 .work-box {
@@ -44,6 +108,7 @@
   height: auto;
   margin: 0px 20px 20px 0px;
 }
+
 .work-box:hover {
   opacity: 0.8;
 }
@@ -58,12 +123,36 @@
 
 .work-box--info {
   position: absolute;
-  top: 40px;
+  width: 400px;
+  bottom: 80px;
   left: -20px;
   background: black;
   color: white;
   font-family: "URWGeometric-Bold.woff";
-  font-size: 16px;
-  line-height: 22px;
-  padding:30px;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  padding: 30px;
+  z-index: 10;
+}
+
+.work-box--info--headline {
+  font-family: "URWGeometric-Bold.woff";
+  font-size: 1.6em;
+}
+
+.p-link-row {
+  margin-top: 1.5em;
+}
+.p-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.video {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  margin: 0px 20px 20px 0px;
+  z-index: -10;
+
 }

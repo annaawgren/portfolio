@@ -22,15 +22,11 @@ class App extends React.Component {
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
 
-
-
           <div className="nav-links-container">
             <div className="navlink-txt"><Link to="/work">Work</Link></div>
             <div className="navlink-txt"><Link to="/about">About</Link></div>
             <div className="navlink-txt"><Link to="/lab">Lab</Link></div>
           </div>
-
-
 
         </div>
       </BrowserRouter>

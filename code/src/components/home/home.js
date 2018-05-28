@@ -56,7 +56,7 @@ class Home extends React.Component {
             <img className="heart-img" src={heart} />
           </div>
           <div className={`heart-info ${this.state.heartVisible ? "visible" : "hidden"}`}>
-            Yes! I love <br /> design, tech, coding <br />  and music. And mountains.
+            Yes! I love <br /> design, new technology, coding <br />  and music. And mountains.
           </div>
         </div>
 
@@ -72,22 +72,10 @@ class Home extends React.Component {
         <div className="about-container">
           <div><img className="anna-img" src={anna} /></div>
           <div className="about-text">
-            <p> Hej! I’m a strategic and creative senior art director /
-            digital designer with frontend developer skills who loves to put a
-            lot of <span className="red">&lt;3</span> into all things I take on.
-            I believe it makes everything better — and more fun. Yay! </p>
-            <p> Three things that I love a little extra (beyond my four year old son, cross country skiing, cooking vegan food,
-            learning new things, spending time in the mountains and listening to a lot of music) is:
-            1. Design 2. Tech 3. To code. </p>
-            <p>That’s why I’m currently adding to my 16 years of industry experience
-            as a print art director by studying at both <a href="https://www.hyperisland.com/programs-and-courses/design-lead" target="blank"> <span className="callme-link">Hyper Island</span> </a>
-            and <a href="http://www.technigo.io/program" target="blank"> <span className="callme-link">Technigo</span> </a>
-            to be able to combine these three areas and become a digital uhm … wizard?
-            Well, at least someone who’s good at both code & design!</p>
-
-            <p>To get there I would love to junior as a web developer at a nice place that
-            makes great things where I can learn as much development as possible.
-            Need someone who is super pepp to learn, that you want to senior? Give me a <a className="callme-link" href="tel:+46707135491" target="blank">☎</a></p>
+            <p> Hello! I’m a strategic and creative senior art director/
+            digital designer with frontend developer skills
+            and experience design at <span className="red">&lt;3</span>. I'm all about solving problems that matter and
+            creating awesome, meaningful products for people to love. </p>
           </div>
         </div>
 
