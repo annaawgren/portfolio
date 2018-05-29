@@ -61,7 +61,7 @@ class About extends React.Component {
                 <br /> 2. New technology.
                 <br /> 3. Code.
                 <br /> That's why I've just added digital to my 16 years of print background by studying at both <a className="link-underline" href="https://www.hyperisland.com/programs-and-courses/design-lead" target="blank">Hyper Island</a> and <a className="link-underline" href="http://www.technigo.io/program" target="blank">Technigo</a> to become a digital uhm … wizard?
-                Well, at least someone who's good at both design, tech & code.
+                Well, at least someone who's good at both design, tech & development.
                </p>
             </div>
           </div>
@@ -91,7 +91,7 @@ class About extends React.Component {
                 </div>
                 <div className="bg-box--skills--contentbox">
                   <span className="skills--headline">code</span>
-                  <br /><br /> HTML5 ••• <br /> CSS3 ••• <br /> Javascript ••• <br /> JSX ••• <br /> React •••
+                  <br /><br /> HTML •••• <br /> CSS •••• <br /> Javascript/ES6 ••• <br /> JSX ••• <br /> React •••
                   <br /> SASS ••• <br /> Github ••• <br /> Node.js ••
                 </div>
                 <div className="bg-box--skills--contentbox">

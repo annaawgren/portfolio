@@ -53,20 +53,17 @@ class Lab extends React.Component {
         </div>
 
         <div class="grid-container">
-          <div class="item1">1
-            {/* <img src={babycorner} alt="baby" /> */}
-          </div>
-          <div class="item2">2</div>
-          <div class="item3">3</div>
-          <div class="item4">4</div>
-          <div class="item5">5</div>
-          <div class="item6">6</div>
-          <div class="item7">7</div>
-          <div class="item8">8</div>
-          <div class="item5">9</div>
-          <div class="item6">10</div>
-          <div class="item7">11</div>
-          <div class="item8">12</div>
+          <div class="item1">c</div>
+          <div class="item2">o</div>
+          <div class="item3">m</div>
+          <div class="item4">i</div>
+          <div class="item5">n</div>
+          <div class="item6">g</div>
+          <div class="item7">.</div>
+          <div class="item7">s</div>
+          <div class="item8">o</div>
+          <div class="item5">o</div>
+          <div class="item6">n</div>
         </div>
 
       </div>

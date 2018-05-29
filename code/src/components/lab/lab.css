@@ -13,11 +13,30 @@
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10em;
 }
 
-.item1 {
+/* .item1 {
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 3;
+} */
+
+.grid-container > div:hover {
+  animation: textanimation 1.2s ease infinite;
+  cursor: crosshair;
+}
+
+@keyframes textanimation {
+  25%  {
+    back:#16F4D0;
+    background-position:0% 50%;}
+  50%  {
+    color:#FF8A5B;
+    background-position:100% 50%;}
+  100% {
+    color:#16F4D0;
+    background-position:0% 50%;}
 }

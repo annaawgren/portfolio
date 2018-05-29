@@ -112,11 +112,11 @@ class Work extends React.Component {
               </video>
             </div>
             <div className="work-box--info">
-              <h3 className="work-box--info--headline">Herstory escape room</h3>
-              <p>An experience design herstory about Ada Lovelace.</p>
-              <p>Case: Build an escape room based on the life of Ada Lovelace. Concept development, experience design, </p>
+              <h3 className="work-box--info--headline">Ada Lovelace – a herstory escape room</h3>
+              <p>Case: Build an escape room with interactive stations, based on the life of Ada Lovelace. Concept development and experience design. </p>
+              <p>Client: Sherlocked, Amesterdam. </p>
               <p>Tools & Tech: Arduino, After effects, hand assembly</p>
-              <p className="p-link-row">See more <a className="p-link" href="https://annaawgren.github.io/radio-player/" target="blank">here</a> </p>
+              <p className="p-link-row">See more <a className="p-link" href="https://vimeo.com/272312870" target="blank">here</a> </p>
             </div>
           </div>
 
